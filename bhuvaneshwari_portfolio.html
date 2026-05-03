@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bhuvaneshwari | Product Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --bg:#ffffff;
+  --text:#111827;
+  --sub:#4b5563;
+  --border:#e5e7eb;
+  --primary:#2563eb;
+}
+
+body{
+  margin:0;
+  font-family:'Inter',sans-serif;
+  background:var(--bg);
+  color:var(--text);
+  line-height:1.7;
+}
+
+/* NAV */
+nav{
+  display:flex;
+  justify-content:space-between;
+  padding:20px 60px;
+  border-bottom:1px solid var(--border);
+}
+
+nav a{
+  text-decoration:none;
+  color:var(--text);
+  margin-left:20px;
+  font-weight:500;
+}
+
+/* HERO */
+.hero{
+  padding:100px 60px;
+  max-width:1000px;
+}
+
+.hero-name{
+  font-family:'Playfair Display',serif;
+  font-size:56px;
+  font-weight:700;
+}
+
+.hero-desc{
+  margin-top:20px;
+  font-size:18px;
+  color:var(--sub);
+  max-width:600px;
+}
+
+/* CTA */
+.cta{
+  margin-top:30px;
+}
+
+.btn{
+  background:var(--primary);
+  color:#fff;
+  padding:12px 20px;
+  border-radius:6px;
+  text-decoration:none;
+  font-weight:600;
+  margin-right:10px;
+}
+
+/* SECTION */
+.section{
+  padding:80px 60px;
+}
+
+.section h2{
+  font-size:28px;
+  margin-bottom:30px;
+}
+
+/* PROJECTS */
+.card{
+  border:1px solid var(--border);
+  padding:25px;
+  border-radius:8px;
+  margin-bottom:20px;
+}
+
+.card h3{
+  margin:0 0 10px;
+}
+
+.card p{
+  color:var(--sub);
+}
+
+/* FOOTER */
+footer{
+  padding:40px 60px;
+  border-top:1px solid var(--border);
+  text-align:center;
+  color:var(--sub);
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAV -->
+<nav>
+  <div><strong>Bhuvaneshwari</strong></div>
+  <div>
+    <a href="#">Projects</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-name">Bhuvaneshwari Thammanaboina</div>
+
+  <div class="hero-desc">
+    I build data-driven products focused on AI, analytics, and user engagement—delivering measurable impact through structured product thinking.
+  </div>
+
+  <div class="cta">
+    <a href="#" class="btn">View Projects</a>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="section">
+  <h2>Featured Projects</h2>
+
+  <div class="card">
+    <h3>AI Support Automation</h3>
+    <p>Reduced support queries by 30% using LLM-based ticket classification and chatbot automation.</p>
+  </div>
+
+  <div class="card">
+    <h3>Retention Analytics Platform</h3>
+    <p>Designed analytics dashboards for cohort tracking and feature engagement.</p>
+  </div>
+
+  <div class="card">
+    <h3>In-App Engagement System</h3>
+    <p>Improved feature discoverability by 12% and CTR by 7% using contextual nudges.</p>
+  </div>
+
+</section>
+
+<!-- FOOTER -->
+<footer>
+  © 2026 Bhuvaneshwari • Product Portfolio
+</footer>
+
+</body>
+</html>
